@@ -1,0 +1,44 @@
+2025-02-01 20:55:49,066 - INFO - Working environment: cuda:0
+2025-02-01 20:55:52,569 - ERROR - Critical error: [Errno 2] No such file or directory: 'c:\\Users\\PC\\Desktop\\Projeler\\Haberler_test\\utils\\config.json'
+Traceback (most recent call last):
+  File "c:\Users\PC\Desktop\Projeler\Haberler_test\main.py", line 36, in main
+    config = load_config()
+             ^^^^^^^^^^^^^
+  File "c:\Users\PC\Desktop\Projeler\Haberler_test\utils\config_loader.py", line 9, in load_config
+    with open(config_file_path, 'r', encoding="utf-8") as config_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\Users\\PC\\Desktop\\Projeler\\Haberler_test\\utils\\config.json'
+2025-02-01 20:59:24,664 - INFO - Working environment: cuda:0
+2025-02-01 20:59:34,730 - INFO - 4 news found!
+2025-02-01 21:29:42,839 - INFO - Working environment: cuda:0
+2025-02-01 21:29:50,043 - INFO - 4 news found!
+2025-02-01 21:37:25,467 - INFO - Working environment: cuda:0
+2025-02-01 21:37:33,769 - ERROR - Critical error: save_news() got an unexpected keyword argument 'date'
+Traceback (most recent call last):
+  File "c:\Users\PC\Desktop\Projeler\Haberler_test\main.py", line 79, in main
+    save_news(
+TypeError: save_news() got an unexpected keyword argument 'date'
+2025-02-01 21:40:55,383 - INFO - Working environment: cuda:0
+2025-02-01 21:41:00,314 - ERROR - Critical error: save_news() got an unexpected keyword argument 'date'
+Traceback (most recent call last):
+  File "c:\Users\PC\Desktop\Projeler\Haberler_test\main.py", line 79, in main
+    save_news(
+TypeError: save_news() got an unexpected keyword argument 'date'
+2025-02-01 21:45:33,710 - INFO - Working environment: cuda:0
+2025-02-01 21:45:40,814 - INFO - 4 news found!
+2025-02-01 22:00:01,765 - INFO - Working environment: cuda:0
+2025-02-01 22:00:09,962 - INFO - 4 news found!
+2025-02-01 22:05:23,409 - INFO - Working environment: cuda:0
+2025-02-01 22:05:31,868 - INFO - 4 news found!
+2025-02-01 22:08:24,309 - INFO - Working environment: cuda:0
+2025-02-01 22:08:39,384 - INFO - 4 news found!
+2025-02-01 22:11:40,908 - INFO - Working environment: cuda:0
+2025-02-01 22:11:50,543 - INFO - 8 news found!
+2025-02-02 16:48:24,005 - INFO - Working environment: cuda:0
+2025-02-02 16:48:31,943 - ERROR - Batch iþleme hatasý: Already borrowed
+2025-02-02 16:48:31,944 - ERROR - Batch iþleme hatasý: Already borrowed
+2025-02-02 16:48:36,358 - INFO - 3 news found!
+2025-02-02 17:37:49,400 - INFO - Working environment: cuda:0
+2025-02-02 17:38:05,690 - INFO - 9 news found!
+2025-02-02 18:45:16,206 - INFO - Working environment: cuda:0
+2025-02-02 18:45:31,067 - INFO - 8 news found!
