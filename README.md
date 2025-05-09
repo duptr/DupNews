@@ -1,4 +1,4 @@
-# DupNews 📰
+# DupNews - RSSNews 📰
 
 ## RSS News Collection, Summarization, and Management System
 
